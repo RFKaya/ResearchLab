@@ -1,0 +1,484 @@
+[
+  {
+    "uuid": "549e50c6-4468-4045-9f0e-a63dd940bcb7",
+    "type": "analysis-lab",
+    "slug": "2026-01-github-actions-typosquatting",
+    "title": "Analysis Lab Case Study: GITHUB ACTIONS TYPOSQUATTING"
+  },
+  {
+    "uuid": "621d8f6e-a0aa-4957-83c3-f6bada80f042",
+    "type": "analysis-lab",
+    "slug": "2025-12-tesla-bluetooth-root",
+    "title": "Analysis Lab Case Study: TESLA BLUETOOTH ROOT"
+  },
+  {
+    "uuid": "31efc87e-5c4d-40df-9329-8d0cfee1b7fa",
+    "type": "analysis-lab",
+    "slug": "2025-08-copilot-prompt-rce",
+    "title": "Analysis Lab Case Study: COPILOT PROMPT RCE"
+  },
+  {
+    "uuid": "1f618223-ae2a-4169-854c-03731e13322b",
+    "type": "analysis-lab",
+    "slug": "2025-07-wasm-sandbox-breakout",
+    "title": "Analysis Lab Case Study: WASM SANDBOX BREAKOUT"
+  },
+  {
+    "uuid": "b1d08653-225a-452d-948e-11c12bc4c7d9",
+    "type": "analysis-lab",
+    "slug": "2025-05-rust-hyper-uaf",
+    "title": "Analysis Lab Case Study: RUST HYPER UAF"
+  },
+  {
+    "uuid": "434fce1d-2fa3-450c-9847-c27724a49552",
+    "type": "analysis-lab",
+    "slug": "2026-04-vercel-hack",
+    "title": "Analysis Lab Case Study: VERCEL HACK"
+  },
+  {
+    "uuid": "528beb68-c7fd-4ae5-b4aa-561410656462",
+    "type": "analysis-lab",
+    "slug": "2025-10-crowdstrike-blindspot",
+    "title": "Analysis Lab Case Study: CROWDSTRIKE BLINDSPOT"
+  },
+  {
+    "uuid": "60f3a799-16f4-4de7-bd7a-23619a2df5dc",
+    "type": "analysis-lab",
+    "slug": "2026-01-supabase-role-smuggling",
+    "title": "Analysis Lab Case Study: SUPABASE ROLE SMUGGLING"
+  },
+  {
+    "uuid": "a353de1a-af2a-4917-b657-ff10561a50de",
+    "type": "analysis-lab",
+    "slug": "2025-11-keycloak-saml-bypass",
+    "title": "Analysis Lab Case Study: KEYCLOAK SAML BYPASS"
+  },
+  {
+    "uuid": "5ea5dc09-27fe-44d4-8920-0159a62e3769",
+    "type": "analysis-lab",
+    "slug": "2025-06-slack-electron-rce",
+    "title": "Analysis Lab Case Study: SLACK ELECTRON RCE"
+  },
+  {
+    "uuid": "7df6b282-a9f8-413d-bd43-9afddca8b74b",
+    "type": "analysis-lab",
+    "slug": "2025-06-graphql-shadow-api",
+    "title": "Analysis Lab Case Study: GRAPHQL SHADOW API"
+  },
+  {
+    "uuid": "8678b264-aced-4bb8-96d6-2f8ad3aa48af",
+    "type": "analysis-lab",
+    "slug": "2026-02-aws-cognito-smuggling",
+    "title": "Analysis Lab Case Study: AWS COGNITO SMUGGLING"
+  },
+  {
+    "uuid": "1253dbcd-b308-4443-a29e-036bbe0b27c7",
+    "type": "analysis-lab",
+    "slug": "2025-05-anydesk-insider-pivot",
+    "title": "Analysis Lab Case Study: ANYDESK INSIDER PIVOT"
+  },
+  {
+    "uuid": "1c7ecd70-63ff-4cad-a7b0-35d6add4e1f6",
+    "type": "analysis-lab",
+    "slug": "2025-12-react2shell",
+    "title": "Analysis Lab Case Study: REACT2SHELL"
+  },
+  {
+    "uuid": "951eb36b-bc5b-4d37-a32f-8df48ba423b3",
+    "type": "analysis-lab",
+    "slug": "2025-11-azure-prt-revocation",
+    "title": "Analysis Lab Case Study: AZURE PRT REVOCATION"
+  },
+  {
+    "uuid": "4d99ba19-9af7-45d1-850d-4eff13f70feb",
+    "type": "analysis-lab",
+    "slug": "2025-08-ghostcontainer",
+    "title": "Analysis Lab Case Study: GHOSTCONTAINER"
+  },
+  {
+    "uuid": "cb4bf17d-8353-4516-8191-01d4811604ce",
+    "type": "analysis-lab",
+    "slug": "2026-03-ios19-silentmessage",
+    "title": "Analysis Lab Case Study: IOS19 SILENTMESSAGE"
+  },
+  {
+    "uuid": "2c5bb3d8-152b-4f25-aa1f-1daae1fa5a29",
+    "type": "analysis-lab",
+    "slug": "2025-09-cloudflare-worker-poisoning",
+    "title": "Analysis Lab Case Study: CLOUDFLARE WORKER POISONING"
+  },
+  {
+    "uuid": "f2ffa1af-2d9e-4f05-a312-bd8f5744b3d0",
+    "type": "analysis-lab",
+    "slug": "2026-02-nginx-quic-rce",
+    "title": "Analysis Lab Case Study: NGINX QUIC RCE"
+  },
+  {
+    "uuid": "202c9351-891b-4d6b-88ba-00f6d66e73eb",
+    "type": "analysis-lab",
+    "slug": "2025-09-llm-jack-rag-poisoning",
+    "title": "Analysis Lab Case Study: LLM JACK RAG POISONING"
+  },
+  {
+    "uuid": "9c474094-75b7-4e15-87de-051379b328c9",
+    "type": "analysis-lab",
+    "slug": "2025-10-shadow-mfa-fatigue",
+    "title": "Analysis Lab Case Study: SHADOW MFA FATIGUE"
+  },
+  {
+    "uuid": "8cd95f1c-de49-4c3e-a0fb-d46ca30b2bfd",
+    "type": "analysis-lab",
+    "slug": "2025-07-snowflake-extortion",
+    "title": "Analysis Lab Case Study: SNOWFLAKE EXTORTION"
+  },
+  {
+    "uuid": "0fb68cde-a5d9-4ea2-a0fd-136f3d742b12",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "memory-limits",
+    "title": "Memory & Resource Limits"
+  },
+  {
+    "uuid": "314679ad-40de-4ec6-94e4-fd7981fff34c",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "upload-config",
+    "title": "File Upload Configuration"
+  },
+  {
+    "uuid": "e8c0dd5a-06f8-437e-a4a9-4318f17c3b84",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "post-size",
+    "title": "POST Data Size Limits"
+  },
+  {
+    "uuid": "c8122b05-1b8d-4d87-845a-f4c0f210976c",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "opcache",
+    "title": "OPcache Configuration"
+  },
+  {
+    "uuid": "867faac9-3b92-4ca6-a169-5e58bcea1280",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "session-management",
+    "title": "Session Management"
+  },
+  {
+    "uuid": "69248f6f-bf66-4048-901e-1f59a34fca5d",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "session-security",
+    "title": "Session Security"
+  },
+  {
+    "uuid": "646f2149-3b8f-47f4-b0b8-9531405ab4fe",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "open-basedir",
+    "title": "open_basedir Restrictions"
+  },
+  {
+    "uuid": "e3b22227-d0c8-4674-ae31-26ff1846c987",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "error-handling",
+    "title": "Error Reporting & Display"
+  },
+  {
+    "uuid": "b48ae0c8-625d-4bd9-8e1e-ed15e5ee5fbe",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "timezone-locale",
+    "title": "Timezone & Locale"
+  },
+  {
+    "uuid": "01fbbc31-7c62-4b0b-8f67-98e08805992d",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "execution-limits",
+    "title": "Execution Time Limits"
+  },
+  {
+    "uuid": "8f0df2b1-5bbd-43e4-aec5-c09b1015adaf",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "security-headers",
+    "title": "Security Headers"
+  },
+  {
+    "uuid": "0ce3e440-e5af-4c30-a001-e130ee1758e3",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "php-version",
+    "title": "PHP Version Selection"
+  },
+  {
+    "uuid": "98687142-6fab-41a7-bd2c-eb40da051b90",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "disable-functions",
+    "title": "disable_functions"
+  },
+  {
+    "uuid": "9e98a021-e2e5-453e-a170-371d85dd62a8",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "production-checklist",
+    "title": "Production Checklist"
+  },
+  {
+    "uuid": "c59e1611-52c3-46ab-92e6-b30da1ece7d2",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "htaccess",
+    "title": ".htaccess Configuration"
+  },
+  {
+    "uuid": "26a808cd-d64b-4ba3-af1b-6652d245e2fe",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "env-config",
+    "title": ".env & .env.example"
+  },
+  {
+    "uuid": "6a8f0b99-047e-452f-9cf0-98088e554a01",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "php-extensions",
+    "title": "PHP Extensions Reference"
+  },
+  {
+    "uuid": "6c7f19c4-161a-433e-bbdc-2dfddb068c88",
+    "type": "config-lab",
+    "category": "php",
+    "slug": "php-directives",
+    "title": "PHP Directives Audit"
+  },
+  {
+    "uuid": "6604351c-700b-46f0-b4de-ac189a9590b3",
+    "type": "config-lab",
+    "category": "nextjs",
+    "slug": "nextjs-image-optimization",
+    "title": "Image Optimization Limits"
+  },
+  {
+    "uuid": "3b4ff7bb-593f-4d3c-b44e-2c4d65911018",
+    "type": "config-lab",
+    "category": "nextjs",
+    "slug": "nextjs-env-vars",
+    "title": "Environment Variables Security"
+  },
+  {
+    "uuid": "1feae651-d0cf-40ee-bfec-ad9c109b27c0",
+    "type": "config-lab",
+    "category": "nextjs",
+    "slug": "nextjs-authjs",
+    "title": "NextAuth/Auth.js Hardening"
+  },
+  {
+    "uuid": "ce749081-b22d-4c6f-ae8e-cdf6730d57b8",
+    "type": "config-lab",
+    "category": "nextjs",
+    "slug": "nextjs-server-actions",
+    "title": "Server Actions Authorization"
+  },
+  {
+    "uuid": "f7f4e481-c28b-456a-abd4-0a9c0d77704f",
+    "type": "config-lab",
+    "category": "nextjs",
+    "slug": "nextjs-middleware",
+    "title": "Middleware Security Headers"
+  },
+  {
+    "uuid": "b36ce90b-f099-4208-9482-9322eadd1152",
+    "type": "config-lab",
+    "category": "coolify",
+    "slug": "coolify-traefik",
+    "title": "Traefik Proxy Hardening"
+  },
+  {
+    "uuid": "ca0f89a3-51e4-4ac1-9596-bc7746dfec2e",
+    "type": "config-lab",
+    "category": "coolify",
+    "slug": "coolify-env-isolation",
+    "title": "Environment Isolation"
+  },
+  {
+    "uuid": "d23166fe-f600-4a34-84ec-d2777616df3f",
+    "type": "config-lab",
+    "category": "coolify",
+    "slug": "coolify-secrets",
+    "title": "Secret Management"
+  },
+  {
+    "uuid": "05968b5d-9231-45bc-af0e-6e384847c996",
+    "type": "config-lab",
+    "category": "coolify",
+    "slug": "coolify-backups",
+    "title": "Automated Backups Integrity"
+  },
+  {
+    "uuid": "3cb61459-5af4-4db3-8201-e8f7b21e22cb",
+    "type": "config-lab",
+    "category": "coolify",
+    "slug": "coolify-ssl",
+    "title": "Custom Domains & SSL"
+  },
+  {
+    "uuid": "778da45a-5c12-4af2-b90b-30005074c9b9",
+    "type": "config-lab",
+    "category": "vps",
+    "slug": "vps-ssh",
+    "title": "SSH Hardening & Fail2Ban"
+  },
+  {
+    "uuid": "0a0b30b0-0b3c-4632-a844-3ac737507b8a",
+    "type": "config-lab",
+    "category": "vps",
+    "slug": "vps-firewall",
+    "title": "Firewall Configuration"
+  },
+  {
+    "uuid": "7267f38f-fa60-46cd-9bbe-6df6b38dd21d",
+    "type": "config-lab",
+    "category": "vps",
+    "slug": "vps-sudoers",
+    "title": "Sudoers Privilege Least-Access"
+  },
+  {
+    "uuid": "449944da-1ca4-4ebc-afe1-d30b3e6bf2a8",
+    "type": "config-lab",
+    "category": "vps",
+    "slug": "vps-selinux",
+    "title": "SELinux Basics"
+  },
+  {
+    "uuid": "678e733f-61ff-40f6-9541-b1e3770e2caa",
+    "type": "config-lab",
+    "category": "vps",
+    "slug": "vps-updates",
+    "title": "Unattended Upgrades"
+  },
+  {
+    "uuid": "836bf091-5528-4571-aa22-07f926108669",
+    "type": "config-lab",
+    "category": "vps",
+    "slug": "vps-auditing",
+    "title": "System Services Auditing"
+  },
+  {
+    "uuid": "89c1562f-183a-452a-b8e0-10d44260874b",
+    "type": "config-lab",
+    "category": "docker",
+    "slug": "docker-rootless",
+    "title": "Rootless Mode Execution"
+  },
+  {
+    "uuid": "789865f9-deb7-491a-bfbe-aad4f12dd81f",
+    "type": "config-lab",
+    "category": "docker",
+    "slug": "docker-resources",
+    "title": "Resource Limits (cgroups)"
+  },
+  {
+    "uuid": "1285b698-6853-45a4-b3ad-541f0c062288",
+    "type": "config-lab",
+    "category": "docker",
+    "slug": "docker-network",
+    "title": "Network Isolation"
+  },
+  {
+    "uuid": "0ada2d7e-dd6e-4018-b64f-27f6a20194a0",
+    "type": "config-lab",
+    "category": "docker",
+    "slug": "docker-socket",
+    "title": "Docker Socket Security"
+  },
+  {
+    "uuid": "66ba86cb-f908-4105-87b4-4154868670e8",
+    "type": "config-lab",
+    "category": "docker",
+    "slug": "docker-scanning",
+    "title": "Image Vulnerability Scanning"
+  },
+  {
+    "uuid": "b9dc3e2e-b689-4893-867a-115aaef323f6",
+    "type": "config-lab",
+    "category": "nginx",
+    "slug": "nginx-rate-limiting",
+    "title": "Rate Limiting"
+  },
+  {
+    "uuid": "8e52c399-0d85-4aac-9003-913175263f1c",
+    "type": "config-lab",
+    "category": "nginx",
+    "slug": "nginx-tls",
+    "title": "TLS Configuration"
+  },
+  {
+    "uuid": "5c7ce117-8e9a-443c-9564-fa50fcb5806b",
+    "type": "config-lab",
+    "category": "nginx",
+    "slug": "nginx-headers",
+    "title": "Security Headers"
+  },
+  {
+    "uuid": "834abfc0-aaec-434c-a8db-1f4ec2bdf3de",
+    "type": "config-lab",
+    "category": "nginx",
+    "slug": "nginx-proxy",
+    "title": "Reverse Proxy Security"
+  },
+  {
+    "uuid": "d4ce9ef3-7806-4b9b-8329-8e05a453c274",
+    "type": "config-lab",
+    "category": "nginx",
+    "slug": "nginx-body-size",
+    "title": "client_max_body_size"
+  },
+  {
+    "uuid": "394bd049-43b9-41dd-8188-ea3c8a10f319",
+    "type": "config-lab",
+    "category": "nginx",
+    "slug": "nginx-hidden",
+    "title": "Blocking Hidden Files"
+  },
+  {
+    "uuid": "bb587d65-b7dd-427c-bcfa-96f460907275",
+    "type": "config-lab",
+    "category": "cpanel",
+    "slug": "cpanel-whm-tweak",
+    "title": "WHM Tweak Settings"
+  },
+  {
+    "uuid": "70572c47-2b22-4586-9716-2f54b1fd2d8a",
+    "type": "config-lab",
+    "category": "cpanel",
+    "slug": "cpanel-modsec",
+    "title": "ModSecurity (WAF)"
+  },
+  {
+    "uuid": "a4671c34-347c-472a-bbb8-2bab0e52b779",
+    "type": "config-lab",
+    "category": "cpanel",
+    "slug": "cpanel-multiphp",
+    "title": "MultiPHP INI Hardening"
+  },
+  {
+    "uuid": "ac0347f4-cf6b-43b6-bf27-d830fc6d436c",
+    "type": "config-lab",
+    "category": "cpanel",
+    "slug": "cpanel-email",
+    "title": "Outbound Email Limits"
+  },
+  {
+    "uuid": "497b244b-b823-4052-ada5-4fc685bafa0c",
+    "type": "config-lab",
+    "category": "cpanel",
+    "slug": "cpanel-autossl",
+    "title": "AutoSSL Configuration"
+  }
+]
