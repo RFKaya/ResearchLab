@@ -1,0 +1,39 @@
+title: Shadow MFA Fatigue (Push Bombing) Detected
+id: e4b2c1c6-a8d0-4e2a-874e-5e36f1c4df82
+status: experimental
+description: |
+  Detects patterns indicative of MFA Fatigue attacks (Prompt Bombing) specifically targeting 
+  shadow endpoints or legacy APIs. The rule triggers when multiple "pending" or "denied" 
+  push notifications are followed by a "success" event within a short time window.
+author: CyberSec Architect
+date: 2026/05/22
+tags:
+  - attack.credential_access
+  - attack.t1621
+  - attack.defense_evasion
+  - attack.t1556.006
+logsource:
+  category: authentication
+  product: windows # or generic proxy/API logs depending on deployment
+  service: mfa
+detection:
+  selection_push_spam:
+    EventID: 
+      - 6272 # NPS Success
+      - 6273 # NPS Denied
+      - 1234 # Mock API Event ID (Replace with actual ID)
+    EventName: 'mfa_push'
+    Status: 
+      - 'pending'
+      - 'denied'
+  selection_push_success:
+    EventName: 'mfa_push'
+    Status: 'success'
+  
+  # Condition: Look for 5 pending/denied events followed by a success within 1 minute
+  condition: selection_push_spam | count() >= 5 and selection_push_success | near selection_push_spam
+  timeframe: 1m
+falsepositives:
+  - Legitimate users struggling with authenticator apps (rarely exceeds 2-3 attempts)
+  - Network lag causing duplicate push triggers
+level: high

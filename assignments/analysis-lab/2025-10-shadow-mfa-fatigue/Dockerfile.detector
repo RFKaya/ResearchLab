@@ -1,0 +1,7 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+COPY mfa_fatigue_detector.py /app/mfa_fatigue_detector.py
+
+# Keep the script running
+CMD ["python", "-u", "mfa_fatigue_detector.py"]
