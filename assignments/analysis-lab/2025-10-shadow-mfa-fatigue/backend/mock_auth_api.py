@@ -48,8 +48,8 @@ def verify_mfa():
     username = data.get('username', 'unknown_user')
     client_ip = request.headers.get('X-Real-IP', request.remote_addr)
     
-    # For simulation, we randomly simulate success or denial if hit directly
-    status = random.choice(["success", "denied"])
+    # For simulation, read from request or fallback to random choice
+    status = data.get('status', random.choice(["success", "denied"]))
     
     log_entry = {
         "timestamp": int(time.time()),
