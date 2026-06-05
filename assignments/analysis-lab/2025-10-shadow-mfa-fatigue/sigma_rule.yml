@@ -5,6 +5,9 @@ description: |
   Detects patterns indicative of MFA Fatigue attacks (Prompt Bombing) specifically targeting 
   shadow endpoints or legacy APIs. The rule triggers when multiple "pending" or "denied" 
   push notifications are followed by a "success" event within a short time window.
+  Note: The condition section of this rule utilizes a pseudo-Sigma syntax to conceptually 
+  model the correlation (5+ spam events followed by a success within 1 minute) for lab demonstration.
+
 author: CyberSec Architect
 date: 2026/05/22
 tags:

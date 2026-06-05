@@ -104,7 +104,7 @@ Authentication Details:
 | **Erişim Sağlama (Credential Access)** | T1621 | Multi-Factor Authentication Request Generation | |
 | **İlk Erişim (Initial Access)** | T1078 | Valid Accounts | Ele geçirilen meşru hesap bilgileri ile sisteme sızılması. |
 | **Savunmayı Atlatma (Defense Evasion)** | T1556.006 | Modify Authentication Process: MFA | Sisteme sızıldıktan sonra saldırganın kendi cihazını "Gölge MFA" olarak kaydetmesi. |
-| **Kalıcılık (Persistence)** | T1098 | Account Manipulation | Kullanıcı profiline yetkisiz MFA cihazlarının ve tokenların eklenmesi. |
+| **Kalıcılık (Persistence)** | T1098 | Account Manipulation | Kullanıcı profiline yetkisiz MFA cihazlarının ve token'ların eklenmesi. |
 
 ---
 
@@ -166,9 +166,9 @@ Sisteminizde Docker Desktop kuruluysa:
    python3.13 -m venv .venv
    .\.venv\Scripts\python.exe -m pip install aiohttp
    ```
-3. **Saldırıyı Simüle Edin**:
+3. **Saldırıyı Simüle Edin** (Self-signed sertifika doğrulamasını atlamak için `--insecure-lab` parametresi eklenmiştir):
    ```powershell
-   .\.venv\Scripts\python.exe attack_simulator.py --requests 20 --concurrency 5
+   .\.venv\Scripts\python.exe attack_simulator.py --requests 20 --concurrency 5 --insecure-lab
    ```
 4. **Tespitleri ve Logları İnceleyin**:
    ```bash

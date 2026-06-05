@@ -8,6 +8,16 @@ app = Flask(__name__)
 # Basic logging setup to stdout
 logging.basicConfig(level=logging.INFO, format='{"timestamp": %(created)f, "client_ip": "%(message)s"}') # Custom format will be handled in route
 
+def write_log_entry(log_entry):
+    import json
+    try:
+        with open('/var/log/auth_mfa_events.log', 'a') as f:
+            f.write(json.dumps(log_entry) + '\n')
+    except (OSError, IOError) as e:
+        # Make log path / volume issues explicit for students instead of a generic 500
+        print(f"[mock_auth_api] Failed to write MFA event log to /var/log/auth_mfa_events.log: {e}")
+
+
 @app.route('/api/v1/auth/mfa/trigger', methods=['POST'])
 def trigger_mfa():
     """
@@ -31,9 +41,8 @@ def trigger_mfa():
     }
     
     # Write to a file that the detector can read (simulate shared volume in docker)
-    with open('/var/log/auth_mfa_events.log', 'a') as f:
-        import json
-        f.write(json.dumps(log_entry) + '\n')
+    write_log_entry(log_entry)
+
 
     print(json.dumps(log_entry)) # Also print to console for docker logs
 
@@ -59,9 +68,7 @@ def verify_mfa():
         "client_ip": client_ip
     }
     
-    with open('/var/log/auth_mfa_events.log', 'a') as f:
-        import json
-        f.write(json.dumps(log_entry) + '\n')
+    write_log_entry(log_entry)
         
     print(json.dumps(log_entry))
     

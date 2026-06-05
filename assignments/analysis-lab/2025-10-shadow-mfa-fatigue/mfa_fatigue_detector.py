@@ -55,6 +55,9 @@ def process_log_line(line):
             print(f"    First Push At : {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(push_attempts[0][0]))}")
             print(f"    Authorized At : {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(current_time))}")
             print("-" * 65)
+            # Clear history for this user to de-duplicate alerts and prevent repeated alerts for the same fatigue burst
+            history.clear()
+
 
 def main():
     print("[*] Real-time Shadow MFA Fatigue log analyzer started...")
